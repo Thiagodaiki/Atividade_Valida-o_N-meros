@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Importa o arquivo de estilos CSS externo -->
+    <link rel="stylesheet" href="css_validacaodenumeros.css">
+
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+
+    <!-- Faz o site se adaptar a diferentes tamanhos de tela (responsivo) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Título da página (aparece na aba do navegador) -->
+    <title>Exemplo Exercício Desvio Condicional - Validação Número</title>
+</head>
+<body>
+
+    <!-- Container principal para organizar o conteúdo da página -->
+    <div class="container">
+
+        <!-- Título visível na página -->
+        <h1>Validação de Números</h1>
+
+        <!-- Campo de entrada para o usuário digitar um número -->
+        <!-- type="number" permite apenas números -->
+        <!-- id="numero" será usado no JavaScript para acessar o valor -->
+        <input type="number" id="numero" name="numero" placeholder="Digite um numero">
+
+        <!-- Botão que chama a função validarNumero() quando clicado -->
+        <button onclick="validarNumero()">Validar</button>
+
+        <!-- Parágrafo onde será exibida a mensagem de resultado -->
+        <p id="resultado"></p>
+    </div>
+
+    <!-- Importa o arquivo JavaScript onde está a função validarNumero -->
+    <script src="javascript_validaodenumeros.js"></script>
+
+</body>
+</html>
